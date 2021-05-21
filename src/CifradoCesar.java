@@ -1,7 +1,11 @@
 
 import java.io.IOException;
 import java.util.Scanner;
-
+/**
+ * 
+ * @author Eduardo Jimeno Pablo
+ * @version 3 con refactorización y comentarios para JavaDoc
+ */
 public class CifradoCesar {
 
     public static void main(String[] args) throws IOException {

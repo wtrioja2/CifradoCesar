@@ -6,11 +6,18 @@
 
 /**
  *
- * @author Vespertino
+ * @author Eduardo Jimeno Pablo
+ * @version 3
  */
 public class Cifrado {
 
     //mÃ©todo para cifrar el texto
+    /**
+     * 
+     * @param texto introduce texto
+     * @param posiciones introduce posiciones a desplazar
+     * @return mensaje cifrado
+     */
     public static String cifradoCesar(String texto, int posiciones) {
         StringBuilder cifrado = new StringBuilder();
         posiciones = posiciones % 26;

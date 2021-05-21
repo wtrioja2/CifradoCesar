@@ -6,11 +6,19 @@
 
 /**
  *
- * @author Vespertino
+ * @author Eduardo Jimeno Pablo
+ * @version 3
  */
 public class Descifrado {
 
     //mÃ©todo para descifrar el texto
+    /**
+     * 
+     * @param texto introduce texto
+     * @param posiciones a desplazar
+     * @return mensaje descifrado
+     */
+    
     public static String descifradoCesar(String texto, int posiciones) {
         StringBuilder cifrado = new StringBuilder();
         posiciones = posiciones % 26;
